@@ -16,5 +16,9 @@ public class kuir {
 			makeKeyword.mK(args[1]);
 		if(args[0].equals("-i"))
 			indexer.mI(args[1]);
-	}
+		if(args[0].equals("-s")) {
+			if(args[2].equals("-q"))
+				searcher.CalcSim(args[1],args[3]);
+		}
+	}	
 }
