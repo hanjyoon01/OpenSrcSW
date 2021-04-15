@@ -18,7 +18,7 @@ import org.xml.sax.SAXException;
 public class searcher {
 
 	@SuppressWarnings({ "rawtypes" })
-	public static void CalcSim(String path, String query) throws IOException, ClassNotFoundException, SAXException, ParserConfigurationException {
+	public static void InnerProduct(String path, String query) throws IOException, ClassNotFoundException, SAXException, ParserConfigurationException {
 		
 		float[] Sim = new float[5];
 		int[] Rank = {0,1,2,3,4};
