@@ -32,8 +32,8 @@ public class genSnippet {
         for(int i=0;i<5;i++) {
             while((line[i] = bufReader.readLine()) != null){
                 System.out.println(line[i]);
+            }
         }
-
 		String[] l = key.split(" ");
 	}
 
